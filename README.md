@@ -9,11 +9,6 @@ Accuracy Score: The balanced accuracy score of the logistic regression model is 
 Precision Score: The precision score of the logistic regression model for predicting high-risk loans (loan_status = 1) was 0.85, which tells us that when the model predicted a loan to be high risk, it was correct about 85% of the time.
 Recall Score: The recall score of the logistic regression model for predicting high-risk loans (loan_status = 1) was 0.91, which means the model was able to identify 91% of the high-risk loans correctly.
 
-## Logistic Regression Model with Oversampling
-Accuracy Score: With oversampling technique, the accuracy score of the logistic regression model is not shown in your provided code, but we can assume the accuracy score would be higher due to oversampling's ability to better train the model on the minority class.
-Precision Score: The precision score for high-risk loans prediction would likely be higher than that of the original logistic regression model, indicating that the oversampling technique improves the model's performance in predicting high-risk loans.
-Recall Score: Similar to precision, the recall score would likely improve when applying oversampling technique as the model has more data on high-risk loans to learn from.
-
 ## Summary
 After analyzing the performance of the logistic regression model and oversampling technique, it is clear that these machine learning techniques can be beneficial for assessing credit risk. The accuracy score, precision, and recall of the logistic regression model are all fairly high, indicating that the model is good at predicting whether a borrower will be able to pay back a loan.
 
